@@ -1,0 +1,8 @@
+ml-1m:
+  n_item: 3706
+  n_user: 6040
+  n_rating: 5
+ml-10m:
+  n_item: 10677
+  n_user: 69878
+  n_rating: 5

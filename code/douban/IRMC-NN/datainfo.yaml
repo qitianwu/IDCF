@@ -1,0 +1,19 @@
+flixster:
+  n_item: 3000
+  n_user: 3000
+  n_rating: 10
+
+douban:
+  n_item: 3000
+  n_user: 3000
+  n_rating: 5
+
+yahoo:
+  n_item: 3000
+  n_user: 3000
+  n_rating: 100
+
+ml-100k:
+  n_item:  1682
+  n_user: 943
+  n_rating: 5
