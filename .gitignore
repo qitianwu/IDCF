@@ -4,3 +4,5 @@ mlf/
 *.log
 **/__pycache__
 *.pkl
+.idea/
+.DS_Store
