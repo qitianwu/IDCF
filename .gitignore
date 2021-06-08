@@ -5,4 +5,4 @@ mlf/
 **/__pycache__
 *.pkl
 .idea/
-.DS_Store
+*.DS_Store
