@@ -1,4 +1,4 @@
-## The codes and data used in ICML'21 paper "Towards Open-World Recommendation: An Inductive Model-Based Collaborative Filtering Apparoach"
+## The codes and data used in ICML'21 paper [Towards Open-World Recommendation: An Inductive Model-Based Collaborative Filtering Apparoach](https://arxiv.org/abs/2007.04833)
 
 ### Download trained model and data
 The trained model and preprocessed data can be downloaded by the Google drive
@@ -28,6 +28,8 @@ The second training stage requires you to run the script train-1m.py.
     python ./code/ml-1m/IDCF-NN/train-1m.py
 
 If you would like to train a model using the mode inductive learning for interpolation (for few-shot query users), you can set the parameter EXTRA as False in train-1m.py. Instead, as for inductive learning for extrapolation (for new test users), you can set EXTRA=True in train-1m.py.
+
+For model details, please refer to our paper
 
 More information will be updated.
 
