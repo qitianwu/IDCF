@@ -29,11 +29,11 @@ The second training stage requires you to run the script train-1m.py.
 
 If you would like to train a model using the mode inductive learning for interpolation (for few-shot query users), you can set the parameter EXTRA as False in train-1m.py. Instead, as for inductive learning for extrapolation (for new test users), you can set EXTRA=True in train-1m.py.
 
-For model details, please refer to our paper
+For model details, please refer to our paper.
 
 More information will be updated.
 
-Cite
+If you found the codes or datasets useful, please consider cite our paper
 
     @inproceedings{wu2021idcf,
     title = {Towards Open-World Recommendation: An Inductive Model-Based Collaborative Filtering Apparoach},
