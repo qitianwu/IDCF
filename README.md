@@ -40,7 +40,7 @@ Second, you need to run the script ***train-1m.py***.
 
 Also, in our paper, we consider two scenarios: inductive learning for interpolation (for few-shot query users) and inductive learning for extrapolation (for new test users). For running the former case, you need to set the variable EXTRA as False in ***train-1m.py***. For the latter case, you can set EXTRA=True in ***train-1m.py***.
 
-For model details, please refer to our paper.
+For model details, please refer to our paper. If you have any question, feel free to contact via email.
 
 If you found the codes or datasets useful, please consider cite our paper:
 
