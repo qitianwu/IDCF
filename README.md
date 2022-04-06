@@ -48,10 +48,12 @@ For model details, please refer to our paper. If you have any question, feel fre
 
 If you found the codes or datasets useful, please consider cite our paper:
 
+```bibtex
     @inproceedings{wu2021idcf,
     title = {Towards Open-World Recommendation: An Inductive Model-Based Collaborative Filtering Apparoach},
     author = {Qitian Wu and Hengrui Zhang and Xiaofeng Gao and Junchi Yan and Hongyuan Zha},
     booktitle = {International Conference on Machine Learning (ICML)},
     year = {2021}
     }
+```
     
