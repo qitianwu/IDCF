@@ -13,6 +13,8 @@ Python 3.8, Pytorch 1.7, Pytorch Geometric 1.6
 The trained model and preprocessed data can be downloaded by the Google drive
 
     https://drive.google.com/drive/folders/1rTfOKZJ-zYrNY9hDUtU9H-UG9fPPQOds?usp=sharing
+    
+You can make a directory `./data` in the root and download the data into it.
 
 ### Reproduce results
 
