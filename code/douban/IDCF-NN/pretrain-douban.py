@@ -127,10 +127,15 @@ for epoch in range(n_epochs):
 	scheduler.step()
 
 	if RMSE < bestRMSE:
+		print("IN the best if")
 		bestRMSE = RMSE
-# 		path='./pretrain-douban/'
-# 		print("Does path exist: " + str(os.path.exist("./pretrain-douban/"))
-# 		save_model(model, path='./pretrain-douban/')
+		path='./pretrain-douban/'
+		print("Does path exist: " + str(os.path.exist("./pretrain-douban/")))
+		if os.path.exist("./pretrain-douban/"):
+			save_model(model, path='./pretrain-douban/')
+		else:
+			os.mkdir("pretrain-douban")
+			save_model(model, path='./pretrain-douban/')
 # 		save_model(model, )
 		      
 		      
