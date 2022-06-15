@@ -128,8 +128,9 @@ for epoch in range(n_epochs):
 
 	if RMSE < bestRMSE:
 		bestRMSE = RMSE
-		path='./pretrain-douban/'
-		print("Does path exist: " + str(os.path.exist("./pretrain-douban/"))
+# 		path='./pretrain-douban/'
+# 		print("Does path exist: " + str(os.path.exist("./pretrain-douban/"))
+# 		save_model(model, path='./pretrain-douban/')
 # 		save_model(model, )
 		      
 		      
