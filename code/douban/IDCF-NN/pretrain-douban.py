@@ -131,6 +131,8 @@ for epoch in range(n_epochs):
 		path='./pretrain-douban/'
 		print("Does path exist: " + str(os.path.exist("./pretrain-douban/"))
 # 		save_model(model, )
+		      
+		      
 
 
 
