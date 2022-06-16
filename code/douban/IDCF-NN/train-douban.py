@@ -178,7 +178,11 @@ for epoch in range(n_epochs):
 	print('TestLoss: {:.4f} MAE: {:.4f} RMSE: {:.4f}'.format(TestLoss, MAE, RMSE))
 
 	if EXTRA:
-		save_model(model, './train-douban/')
+		if os.path.isdir('./train-douban/'):
+			save_model(model, './train-douban/')
+		else
+			os.mkdir('./train-douban/'):
+			save_model(model, './train-douban/')
 	else:
 		loss_r_val_sum, l1_sum, l2_sum = 0., 0., 0.
 		for i in range(val_size // BATCH_SIZE_TEST + 1):
@@ -192,4 +196,9 @@ for epoch in range(n_epochs):
 		print('ValLoss: {:.4f} MAE: {:.4f} RMSE: {:.4f}'.format(ValLoss, MAE, RMSE))
 		if RMSE < bestRMSE:
 			bestRMSE = RMSE
-			save_model(model, './train-douban/')
+# 			save_model(model, './train-douban/')
+			if os.path.isdir('./train-douban/'):
+				save_model(model, './train-douban/')
+			else
+				os.mkdir('./train-douban/'):
+				save_model(model, './train-douban/')
