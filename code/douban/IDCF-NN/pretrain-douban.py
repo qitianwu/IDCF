@@ -129,13 +129,13 @@ for epoch in range(n_epochs):
 	if RMSE < bestRMSE:
 		print("IN the best if")
 		bestRMSE = RMSE
-		path='./pretrain-douban/'
-		print("Does path exist: " + str(os.path.exist("./pretrain-douban/")))
-		if os.path.exist("./pretrain-douban/"):
-			save_model(model, path='./pretrain-douban/')
+		path_0='./pretrain-douban/'
+		print("Does path exist: " + str(os.path.isdir(path_0)))
+		if os.path.isdir(path_0):
+			save_model(model, path_0)
 		else:
-			os.mkdir("pretrain-douban")
-			save_model(model, path='./pretrain-douban/')
+			os.mkdir(path_0)
+			save_model(model, path_0)
 # 		save_model(model, )
 		      
 		      
