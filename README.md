@@ -1,6 +1,6 @@
 ## InDuctive Collaborative Filtering (IDCF)
 
-The codes and data used in ICML'21 paper [Towards Open-World Recommendation: An Inductive Model-Based Collaborative Filtering Apparoach](https://arxiv.org/abs/2007.04833). There is a Chinese tutorial [Blog](https://zhuanlan.zhihu.com/p/451858601?) that introduces this work in an easy-to-follow manner.
+Code and data used in ICML'21 spotlight paper [Towards Open-World Recommendation: An Inductive Model-Based Collaborative Filtering Apparoach](https://arxiv.org/abs/2007.04833). There is a Chinese tutorial [Blog](https://zhuanlan.zhihu.com/p/451858601?) that introduces this work in an easy-to-follow manner.
 
 This work proposes a new collaborative filtering approach for recsys. The new method could achieve inductive learning for new users in testing set and also help to address cold-start problem on user side.
 
